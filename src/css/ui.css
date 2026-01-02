@@ -1,0 +1,13 @@
+#model-select {
+    z-index: 100;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid #444;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

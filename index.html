@@ -1,13 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-project</title>
+    <meta charset="UTF-8">
+    <title>Test 3D</title>
+    <!-- ================ Meta ================ -->
+    <meta name="author" content="Anonymous">
+    <meta name="description" content="Description">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ================ Icon ================ -->
+    <link rel="icon" type="image/svg+xml" href="icon/icon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/icon_16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/icon_32x32.png">
+    <!-- ================ CSS ================ -->
+    <link rel="stylesheet" href="src/css/main.css">
+    <!-- ================ JS ================ -->
+    <script type="module" src="src/js/main.js"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <select id="model-select">
+      <option value="/assets/tiny_isometric_room_low.glb">Tiny Room (Low)</option>
+      <option value="/assets/tiny_isometric_room_high.glb">Tiny Room (High)</option>
+      <option value="/assets/the_smoking_room.glb">Smoking Room</option>
+    </select>
   </body>
 </html>
